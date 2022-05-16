@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/photoWassim.jpg" class="img-fluid" style="width:200px; border-radius:50px">
+    <div>étudiant en technologie de l'informatique à la haute école de l'EPHEC à Louvain-La Neuve</div>
+    <HelloWorld msg="Bienvenu sur le portfolio de Bouhdid Wassim"/>
   </div>
 </template>
 
