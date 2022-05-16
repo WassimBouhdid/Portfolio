@@ -1,5 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div>
+  <nav class=" navbar-expand-lg navbar navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Portfolio Bouhdid Wassim</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,19 +9,67 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Mon CV</a>
+          <a class="nav-link active" aria-current="page" href="#CV">Mon CV</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Heures</a>
+          <a class="nav-link" href="#heures">Heures</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Compétences</a>
+          <a class="nav-link" href="#competences">Compétences</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
   <router-view/>
+  <footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="https://www.facebook.com/wassim.bouhdid/"
+        role="button" target="_blank"
+        ><img src="./assets/facebook.png"></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button" target="_blank"
+        ><img src="./assets/twitter.png"></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button" target="_blank"
+        ><img src="./assets/instagram.png"></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/wassim-bouhdid-325896225/"
+        role="button" target="_blank"
+        ><img src="./assets/linkedin.png"></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #D3D3D3;"
+        href="https://github.com/WassimBouhdid"
+        role="button" target="_blank"
+        ><img src="./assets/GitHub-Mark-32px.png"></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+</footer>
+  </div>
 </template>
 
 <style>
