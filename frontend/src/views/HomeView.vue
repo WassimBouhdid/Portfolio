@@ -14,13 +14,13 @@
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
           numquam iste, quas provident minus ducimus quod, quaerat dicta perferendis necessitatibus veniam accusamus
           asperiores expedita.</p>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
           numquam iste, quas provident minus ducimus quod, quaerat dicta perferendis necessitatibus veniam accusamus
           asperiores expedita.</p>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
           numquam iste, quas provident minus ducimus quod, quaerat dicta perferendis necessitatibus veniam accusamus
           asperiores expedita.</p>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores iure excepturi. Nostrum nam tenetur
           numquam iste, quas provident minus ducimus quod, quaerat dicta perferendis necessitatibus veniam accusamus
           asperiores expedita.</p>
       </div>
@@ -30,43 +30,75 @@
             class="btn btn-success">Télécharger mon CV</button></a>
       </div>
       <div id="heures">
-        <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample1">Année 2020</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample2">Année 2021</a>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
-            aria-expanded="false" aria-controls="multiCollapseExample3">Année 2022</a>
-        </p>
+        <h1>Portfolio</h1>
+        <div class="row">
+          <h3>Année 2021</h3>
+          <div class="col">
+            <h4> Tutorat </h4>
+            Temps total : 25h
+            Temps valorisé : 10h
+            <p> Tutorat tout les samedi après midi en dévellopement web 1 théorie et pratique à un élève de première pendant tout le premier quadrimèstre </p>
+          </div>
+          <div class="col">
+            <h4> Formation PHP </h4>
+            <img src=".\..\assets\cert-1059-19748106.jpg" class="img-fluid" >
+            Temps total : 10h
+            Temps valorisé : 10h
+            <p> Formation PHP sur la plateforme Sololearn </p>
+          </div>
+          <div class="col">
+            <h4> Travail étudiant chez Spie au campus Solvay Ixelle </h4>
+            <img src=".\..\assets\spie.png" class="img-fluid" >
+            Temps total : 24h
+            Temps valorisé : 0h
+            <p> Installation d'écran et de docking station </p>
+          </div>
+        </div>
         <div class="row">
           <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                Année 2020
-              </div>
-            </div>
+            <h4> Formation Fullstack </h4>
+            <img src=".\..\assets\Fullstack.png" class="img-fluid" >
+            Temps total : 10h
+            Temps valorisé : 10h
+            
+            <p> Formation Fullstack ( Nodejs, express, MongoDB,) sur le site OpenClassroom </p>
           </div>
           <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                Année 2021
-              </div>
+            <h4> Formation Angular </h4>
+            <img src=".\..\assets\angular.png" class="img-fluid" >
+            Temps total : 10h
+            Temps valorisé : 10h
+            <p> Formation Angular sur le site OpenClassroom </p>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Année 2022</h3>
+          <div class="col">
+            <h4> Dev Day</h4>
+            <img src=".\..\assets\dev_day.jpg" class="img-fluid" >
+            Temps valorisé : 8h
+            <p> Suivis de 4 conférence IT de 2h au cinéma de Louvain-La Neuve à l'ocasion du Dev Day </p>
             </div>
+          <div class="col">
+            <h4> Travail étudiant chez mastercard Waterloo </h4>
+            <img src=".\..\assets\mastercard1.jpg" class="img-fluid" >
+            Temps valorisé : 10h
+            <p>Montage de bureau et d'écran pour leur nouveau Locaux à Waterloo</p>
           </div>
           <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-              <div class="card card-body">
-                Année 2022
-              </div>
-            </div>
+            <h4> Formation développement Android </h4>
+            <img src=".\..\assets\devAndroid.png" class="img-fluid" >
+            Temps valorisé : 10h
+            <p>Formation au dévellopement Android sur le site OpenClassroom</p>
           </div>
+          
         </div>
       </div>
       <div id="competences">
-<h3>Frontend</h3>
-<h3>Backend</h3>
-<h3> dévellopement applicatif </h3>
-<h3> Électronique </h3>
+        <h3>Frontend</h3>
+        <h3>Backend</h3>
+        <h3> dévellopement applicatif </h3>
+        <h3> Électronique </h3>
       </div>
     </div>
 
@@ -85,7 +117,7 @@
   }
 </script>
 <style>
-#CV{
-  padding:50px;
-}
+  #CV {
+    padding: 50px;
+  }
 </style>
