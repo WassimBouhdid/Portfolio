@@ -26,7 +26,7 @@
       </div>
       <div id="CV">
         <h2> Mon CV </h2>
-        <a target="_blank" href="./BouhdidWassim-CV-EPHEC.pdf" title="" download><button type="button"
+        <a target="_blank" href=".\BouhdidWassim-CV-EPHEC.pdf" title="test" download="CV wassim"><button type="button"
             class="btn btn-success">Télécharger mon CV</button></a>
       </div>
       <div id="heures">
