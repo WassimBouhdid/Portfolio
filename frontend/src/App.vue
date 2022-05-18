@@ -2,7 +2,7 @@
 <div>
   <nav class=" navbar-expand-lg navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Portfolio Bouhdid Wassim</a>
+    <a class="navbar-brand" href="/">Bouhdid Wassim</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,9 +14,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#heures">Heures</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#competences">Compétences</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -27,13 +24,7 @@
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
     <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="https://www.facebook.com/wassim.bouhdid/"
-        role="button" target="_blank"
-        ><img src="./assets/facebook.png"></a>
+      
 
       <!-- Twitter -->
       <a
@@ -43,13 +34,6 @@
         role="button" target="_blank"
         ><img src="./assets/twitter.png"></a>
 
-      <!-- Instagram -->
-      <a
-        class="btn btn-primary btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button" target="_blank"
-        ><img src="./assets/instagram.png"></a>
 
       <!-- Linkedin -->
       <a
